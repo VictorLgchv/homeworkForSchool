@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Тема 2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/style.css">
+  </head>
+  <body class="container">
+    <header class="header">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a href="./index.html" class="navbar-brand">&#8592;На головну</a>
+          <ul class="navbar-nav">
+            <li class="nav-item"><a href="./01-Theme-2.html" class="nav-link active">Тема 2</a></li>
+            <li class="nav-item"><a href="./02-Theme-3.html" class="nav-link">Тема 3</a></li>
+            <li class="nav-item"><a href="./03-Theme-4.html" class="nav-link">Тема 4</a></li>
+            <li class="nav-item"><a href="./04-Theme-5.html" class="nav-link">Тема 5</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main class="main">
+      <h1 class="title">Тема 2. Вебпрограмування.</h1>
+      <table class="main__table table table-striped table-hover">
+        <tr class="table-dark">
+          <th>#</th>
+          <th>Питання</th>
+          <th>Відповідь</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Що таке форма в HTML-документі?</td>
+          <td>
+            Форми дозволяють отримувати інформацію від відвідувачів
+            веб-сторінки. Списки розсилання, контактні дані, профіль
+            користувача, логін і реєстрація, коментарі в блогах - все це
+            реалізується за допомогою форм та їх елементів.
+          </td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>В яких випадках використовуються форми?</td>
+          <td>
+            У випадках, коли потрібно отримати данні від користувача, опрацювати
+            їх та відправити на сервер. Це може бути як опитування, так і картка
+            реєстрації.
+          </td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Скільки форм можна розмістити на одній сторінці?</td>
+          <td>Безліч.</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Який тег використвують для задання форми?</td>
+          <td>Тег <span class="tag-form">form</span></td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>Назовіть відомі вам атрибути тега форми.</td>
+          <td>
+            В елемента <span class="tag-form">form</span> немає обов'язкових
+            атрибутів, тому в прикладі наведені кілька корисних необов'язкових:
+            <span class="atribute-form">name</span>,
+            <span class="atribute-form">autocomplete</span>,
+            <span class="atribute-form">novalidate</span>
+          </td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td>
+            Перерахуйте відомі вам елементи управління, які можуть створювати
+            форму.
+          </td>
+          <td>
+            <span class="tag-form">form</span>,<span class="tag-form"
+              >label</span
+            >,<span class="tag-form">input</span>,<span class="tag-form"
+              >textarea</span
+            >,<span class="tag-form">select</span>,<span class="tag-form"
+              >datalist</span
+            >,<span class="tag-form">fieldset</span>,<span class="tag-form"
+              >legend</span
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td>
+            Який тег використовується для створення на сторінці будь-якого
+            елемента?
+          </td>
+          <td>
+            Не зрозумів питання. Ніяка сторінка не може існувати без тегів
+            <span class="tag-form">html</span>,<span class="tag-form"
+              >header</span
+            >,<span class="tag-form">body</span>. Без цих тегів - ніяк. Всі інщі
+            теги можна замінити, при бажанні, на тег
+            <span class="tag-form">div</span> та за допомогою CSS та JS замінити
+            функціонал інщих тегів, але навіщо&#41;?
+          </td>
+        </tr>
+        <tr>
+          <td>8</td>
+          <td>
+            Які елементи управління відносяться до текстових полів? Перерахуйте
+            їх назви.
+          </td>
+          <td>
+            <span class="tag-form">input</span> та
+            <span class="tag-form">textarea</span>.
+          </td>
+        </tr>
+        <tr>
+          <td>9</td>
+          <td>В яких випадках використовуються елементи-перемикачі?</td>
+          <td>
+            Якщо питання про радіо-кнопки та чекбокси, то у тих випадках, коли
+            потрібно відреагувати на вже готовий варіант відповіді або
+            погодитися на якусь там обробку персональних даних.
+          </td>
+        </tr>
+        <tr>
+          <td>10</td>
+          <td>
+            Які типи кнопок використовують в формах? Які при цьому значення
+            приймає атрибут type?
+          </td>
+          <td>submit та reset.</td>
+        </tr>
+        <tr>
+          <td>11</td>
+          <td>
+            Для чого в формі потрібні прапорці? Вкажіть синтаксис опису даного
+            елемента.
+          </td>
+          <td>
+            Мені здається, що я вже відповів на це питання раніше. Для того, щоб
+            отримати реакцію користувача на вже готовий варіант відповіді.
+          </td>
+        </tr>
+        <tr>
+          <td>12</td>
+          <td>Чим відрізняються такі елементи як прапорець і перемикач?</td>
+          <td>
+            Чекбокси можна поставити незалежно від сусідніх чекбоксів. Звісно,
+            можна і там встановити залежність. Радіо-кнопки завжди йдуть
+            групами, що дозволяє користувачеві вибрати одне з безлічі визначених
+            значень.
+          </td>
+        </tr>
+      </table>
+      <!-- <p>Особисто я б не називав цю тему "Вебпрограмування", бо питання тут лише про розмітку сайту. Я вважаю, що прграмування трішки про інше. Верстку можна вивчити за місяць разом з адаптивом. Вивчити мову програмування за місяць початківцю - неможливо.</p> -->
+    </main>
+    <section class="buttons">
+      <h2>Практичне завдання</h2>
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Відкрити першу форму</button>
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat">Відкрити другу форму</button>
+    </section>
+    <section class="modals">
+      <section class="modals__modal first-modal">
+        <div class="modal" tabindex="-1">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Modal title</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <form class="modals__form">
+                  <div class="modals__box">
+                    <label
+                      >ПІБ: <input type="text" placeholder="Введіть ваше ім'я"
+                    /></label>
+                  </div>
+        
+                  <div class="modals__box">
+                    <select
+                      class="modals__select"
+                      name="modal-select"
+                      id="modal-select"
+                    >
+                      <option value="school-1">ЗОШ №1</option>
+                      <option value="school-2">НВК №2</option>
+                      <option value="school-3">НВК №5</option>
+                    </select>
+                  </div>
+        
+                  <div class="modals__box">
+                    <p>Вибери факультатив:</p>
+                    <label>
+                      <input type="radio" name="color" value="red" />
+                      Українська мова
+                    </label>
+                    <label>
+                      <input type="radio" name="color" value="white" />
+                      Математика
+                    </label>
+                    <label>
+                      <input type="radio" name="color" value="green" />
+                      Англійська мова
+                    </label>
+                    <label>
+                      <input type="radio" name="color" value="green" checked />
+                      Інформатика
+                    </label>
+                  </div>
+                  <div class="modals__buttons">
+                    <button class="modals__button" type="submit">Відіслати</button>
+                    <button class="modals__button" type="reset">Оновити форму</button>
+                  </div>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
+            </div>
+          </div>
+        </div> 
+      </section>
+      <section class="modals__modal second-modal">
+        <div class="modal" tabindex="-1">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Modal title</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <form method="post" name="tests">
+                  <div class="modals__box">
+                    <p>Що таке теги?</p>
+                    <label>
+                      <input type="radio" name="one" value="red" />
+                      Мова програмування
+                    </label>
+                    <label>
+                      <input type="radio" name="one" value="white" />
+                      Атрибут
+                    </label>
+                    <label>
+                      <input type="radio" name="one" value="green" />
+                      Коди мови HTML
+                    </label>
+                  </div>
+                  <div class="modals__box">
+                    <p>Як записати чорний колір?</p>
+                    <label>
+                      <input type="radio" name="two" value="red" />
+                      dark
+                    </label>
+                    <label>
+                      <input type="radio" name="two" value="white" />
+                      000000
+                    </label>
+                    <label>
+                      <input type="radio" name="two" value="green" />
+                      FFFFFF
+                    </label>
+                  </div>
+        
+                  <button type="button" class="modals__button js-button">
+                    Кількість правильних відповідей
+                  </button>
+                  <textarea name="textarea" id="text" cols="2" rows="1"></textarea>
+                  <button type="reset">Оновити форму</button>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="modals__modal"></section>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>
